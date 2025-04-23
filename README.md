@@ -1,33 +1,11 @@
 
-# QuCreate Streamlit Lab
+# Quicksort Visualizer
 
-This repository contains a Streamlit application for demonstrating the features and capabilities of the QuCreate platform.
+This Streamlit application visualizes the Quicksort algorithm, allowing users to input an array size, select a pivot selection strategy, and step through the sorting process.
 
-## Features
-- Streamlit sidebar with a company logo.
-- Template for easy development.
-- Placeholder for adding custom code.
+## How to Run
 
-## Getting Started
-
-### Prerequisites
-- Python 3.8 or later
-- Streamlit installed (see `requirements.txt`).
-
-### Installation
-1. Clone the repository
-2. Install dependencies:
-`pip install -r requirements.txt`
-
-### Running the Application
-1. Run the Streamlit app:
-
-### Development
-1. Modify the `app.py` file to add your custom code.
-2. Use the placeholder section (`# Code goes here`) to add new functionality.
-
-### Deployment
-- Deploy your Streamlit app using Streamlit Sharing, Docker, or any other platform supporting Python web applications.
-
-## License
-© 2025 QuantUniversity. All Rights Reserved. Educational use only. For licensing details, please contact QuantUniversity.
+1.  Make sure you have Docker installed.
+2.  Build the Docker image: `docker build -t quicksort-visualizer .`
+3.  Run the Docker container: `docker run -p 8501:8501 quicksort-visualizer`
+4.  Open your browser and go to `http://localhost:8501`.
